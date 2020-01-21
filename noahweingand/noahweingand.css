@@ -1,0 +1,53 @@
+/*
+ * Author: Noah Weingand
+ * Description: CSS for my personal website
+ * Date Created: 01/15/2020
+*/
+h1 {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 150px;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(245, 255, 245);
+    padding: 0;
+}
+
+.format {
+    height: auto; /*if more info comes on the page, it will stretch down*/
+    width: 1000px;
+    margin: 0 auto; /*this will cause the div to be in the center*/
+}
+
+.line {
+    border-bottom: 2px solid rgb(245, 245, 245);
+    color: rgb(245, 255, 245);
+    /*width: 889px;*/
+    width: 489px;
+    margin: auto;
+}
+
+.space {
+    padding: 20px 10px;
+}
+
+h2 {
+    font-size: 80px;
+    text-align: center;
+    color: rgb(245, 255, 245);
+}
+
+p {
+    word-spacing: 200px;
+}
+
+a:visited, a:link {
+    color: rgb(204, 204, 204);
+}
+
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 45px;
+    text-align: center;
+    background-color: rgb(31, 31, 31);
+    color: rgb(204, 204, 204);
+}
