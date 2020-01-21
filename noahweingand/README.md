@@ -6,4 +6,5 @@ Created with HTML and CSS. I use JavaScript for some visual art using the p5.js 
 
 # Plans
 -   Edit some CSS and JS art
+-   Update Resume as PDF, not JPG
 -   Deploy
