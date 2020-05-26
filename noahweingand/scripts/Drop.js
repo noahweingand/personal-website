@@ -1,8 +1,6 @@
 /*
- * Author: Noah Weingand and TheCodingTrain
- * Description: Code for the drops of rain that fall on the website. I only changed the color
- *              in this document as I borrowed it from TheCodingTrain. Strictly for aesthetic
- *              use. No profit is being made off of this site. 
+ * Author: Noah Weingand 
+ * Description: Code for the drops of rain that fall on the website.
  * Date Created: 01/15/2020
 */
 function Drop() {
@@ -26,8 +24,7 @@ function Drop() {
   this.show = function() {
     var thick = map(this.z, 0, 20, 1, 3);
     strokeWeight(thick);
-    //stroke(138, 43, 226);
-    stroke(245, 255, 245)
+    stroke(188, 238, 241) //color of drop
     line(this.x, this.y, this.x, this.y + this.len);
   };
 }
