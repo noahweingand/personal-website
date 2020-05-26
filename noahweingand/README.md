@@ -5,6 +5,4 @@ The source code for my personal website. There is no live version available as I
 Created with HTML and CSS. I use JavaScript for some visual art using the p5.js library.
 
 # Plans
--   Make responsive (html and css)
--   Figure out how to format JS art better (possibly in background?)
 -   Deploy
