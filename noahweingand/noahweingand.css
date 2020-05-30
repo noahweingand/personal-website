@@ -3,7 +3,10 @@
  * Description: CSS for my personal website
  * Date Created: 01/15/2020
 */
-
+@viewport {
+    width: device-width;
+    zoom: 0;
+}
 .whole {
     position: fixed; /*absolute*/
     top: 50%;
