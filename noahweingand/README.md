@@ -1,8 +1,9 @@
 # noahweingand
-The source code for my personal website. There is no live version available as I'm figuring out how I want to deploy it. To view currently, pull the source code and open the HTML in any web browser. My main goal was to keep it super simple as this is just a path to route to my professional sites.
+The source code for my personal website
+
+# Live
+[nowein.dev](https://nowein.dev/)
 
 # Technologies
-Created with HTML and CSS. I use JavaScript for some visual art using the p5.js library.
-
-# Plans
--   Deploy
+I use JavaScript for some visual art using the p5.js library. Other than that, it's just static HTML and CSS.
+It is hosted on an S3 AWS bucket. I created an SSL certificate using Certificate Manager for HTTPS and configured the DNS name servers with Route53 and CloudFront.
